@@ -1,0 +1,88 @@
+h1,h2,ul {
+    margin: 0
+}
+
+h1 {
+    font-size: 1.5 rem;
+}
+h2 {
+    color: #bbb;
+    border: solid lightgray .5px;
+    padding: 5px;
+    margin:10px 0;
+}
+
+p {
+    font-size: 1.25rem;
+    margin: 5px 0;
+}
+
+.todo-component {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* .top-text {
+    
+} */
+
+.list {
+    font-size: 1.3rem;
+    margin: 5px 0;
+    padding: 5px 0;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.done {
+    text-decoration: line-through;
+    flex-direction: row;
+}
+
+li {
+    flex-direction: row;
+    padding: 5px;
+}
+
+.complete {
+    border: solid 1px #ff69b4;
+    color: #ff69b4;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.form {
+    font-size: 1.4rem;
+    color: black;
+    padding: 5px 0 5px 5px;
+}
+
+button{
+    font-size: 1.2rem;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 6px;
+    justify-content: space-around;
+    background: linear-gradient(to right, #f857a6, #ff5858);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}

@@ -1,0 +1,25 @@
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+
+<div class="todo-component">
+
+    <main class="body">
+        <h1>TODO List</h1>
+        <p class="top-text">
+            A place to store your todos
+        </p>
+        <label for="newtask"></label><br>
+        <input class="form" type="text" id="newtask" name="newtask" placeholder="Filter Your To-Dos">
+        <ol class="list">
+            <li *ngFor="let todo of todos" [ngClass]="{done: todo.completed}" [ngClass]="{complete: !todo.completed}">
+                {{todo.task}}
+            </li>
+        </ol>
+        <label for="newtask"></label><br>
+        <input class="form" type="text" id="newtask" name="newtask" placeholder="Add Your To-Do">
+        <button type="submit">
+            Add
+        </button>
+    </main>
+
+</div>
